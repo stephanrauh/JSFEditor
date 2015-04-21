@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="JSF editor by BeyondJava.net"
+            extensions="xhml"
+            icon="icons/sample.gif"
+            contributorClass="de.beyondjava.eclipse.jsfeditor.multipage.MultiPageEditorContributor"
+            class="de.beyondjava.eclipse.jsfeditor.multipage.MultiPageEditor"
+            id="de.beyondjava.eclipse.jsfeditor.JSFEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="JSFEditor.category1"
+            name="JSF">
+      </category>
+      <primaryWizard
+            id="JSFEditor.AngularFacesWizard">
+      </primaryWizard>
+      <wizard
+            category="JSF"
+            class="de.beyondjava.eclipse.jsfeditor.wizard.AngularFacesWizard"
+            id="JSFEditor.AngularFacesWizard"
+            name="AngularFacesWizard">
+      </wizard>
+   </extension>
+
+</plugin>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JSFEditor
+Bundle-SymbolicName: JSFEditor;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: de.beyondjava.eclipse.jsfeditor.main.Activator
+Bundle-Vendor: BeyondJava.net
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources,
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

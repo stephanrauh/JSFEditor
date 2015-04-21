@@ -1,0 +1,2 @@
+# JSFEditor
+Eclipse JSF Editor
